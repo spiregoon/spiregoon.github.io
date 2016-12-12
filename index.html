@@ -1,158 +1,763 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8">
-	<title>关于我 - 个人主页</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>关于我 - 个人Index</title>
 
-	<!-- stylesheet css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="templatemo-blue.css">
+<link href="styles.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="styles_ie.css" />
+<![endif]--> 
+
+<link href="styles/gray.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" language="javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.tools.min.js"></script>
+
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+
+<script type="text/javascript" language="javascript" src="js/general.js"></script>
+
+<script type="text/javascript" language="javascript" src="js/jquery.easing.1.3.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/home.css" />	
+<script type="text/javascript" language="javascript" src="js/home.js"></script>
 </head>
-<body data-spy="scroll" data-target=".navbar-collapse">
 
-<!-- preloader section -->
-<div class="preloader">
-	<div class="sk-spinner sk-spinner-wordpress">
-       <span class="sk-inner-circle"></span>
-     </div>
+<body onload="load_animations()">
+
+     
+    <!-- popup -->
+<link rel="stylesheet" type="text/css" href="css/magnific-popup1.css">
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+                <script>
+                    $(document).ready(function() {
+                        $('.popup-with-zoom-anim').magnificPopup({
+                            type: 'inline',
+                            fixedContentPos: false,
+                            fixedBgPos: true,
+                            overflowY: 'auto',
+                            closeBtnInside: true,
+                            preloader: false,
+                            midClick: true,
+                            removalDelay: 300,
+                            mainClass: 'my-mfp-zoom-in'
+                    });
+                });
+                </script>
+<script type="text/javascript" src="js/jquery.lightbox.js"></script>
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
+  <script type="text/javascript">
+    $(function() {
+        $('#portfoliolist a').lightBox();
+    });
+   </script>
+
+<!-- ****固定窗口 -->
+ <script type="text/javascript"  src="js/jquery.smint.js"></script>
+        <script type="text/javascript">
+        $(document).ready( function() {
+            $('.topnav').smint({
+                'scrollSpeed' : 1000
+            });
+        });
+        </script>
+        <script>
+        window.addEventListener("load",function() {
+          setTimeout(function(){
+            window.scrollTo(0, 1);
+          }, 0);
+        });</script>
+
+   <!--      ******** -->
+<div class="header_img" id="aside2">
+	
+    <div class="topnav">
+    	<div class="container_12">
+        
+		<div class="logo"><a href="index.html"><img src="images/logo.png" alt="ENVISION" width="197" height="76" border="0" color="red"/></a></div>
+
+<!-- topmenu -->            
+        <div class="menu-header">
+        
+	        <ul class="topmenu">
+				<li class="parent first current-menu-item"><a href="#"><span>主页</span></a>
+                	
+                </li>
+              	<li class="parent"><a href="#about"><span>关于我</span></a>
+                  
+              </li>
+              <li class="parent"><a href="#skills"><span>技能</span></a>
+              		<ul class="sub-menu">
+                        <li class="first"><a href="#"><span>吃饭</span></a></li>
+                        <li><a href="#"><span>睡觉</span></a></li>
+						<li class="last"><a href="#"><span>打代码</span></a></li>                        
+                    </ul>
+              </li>
+              <li class="parent"><a href="#portfoliolist"><span>作品</span></a>
+					<ul class="sub-menu">
+                        <li class="first parent"><a href="#"><span>作品近期</span></a>
+                        	<ul class="sub-menu">
+                            	<li class="first"><a href="#"><span>作品进阶</span></a></li>
+                            	<li class="last"><a href="#"><span>作品基础</span></a></li>
+                             </ul>
+                        </li>
+                        <li class="parent last"><a href="#"><span>效果</span></a>	
+                        	<ul class="sub-menu">
+                                <li><a href="#"><span>高级</span></a></li>
+                                <li class="last"><a href="#"><span>中级</span></a></li>
+                             </ul>
+						</li>										
+                    </ul>
+              </li>
+              <li><a href="#exprience"><span>Experience</span></a></li>
+              <li class="last"><a href="#gank"><span>Contact</span></a></li>
+       	  </ul>
+        </div>
+<!--/ topmenu -->        
+	</div>            
+    </div>
+<!--/ header -->
+
+<!-- slider -->        
+
+    <div class="container_12">
+        <div class="slider">
+        	
+            	<div id="header_images">
+					<img src="images/slider1_image_1.png" class="header_image" color="#17191e" alt="" link="#link1" />
+                    <img src="images/slider1_image_2.jpg" class="header_image" color="#054065" alt="" link="#link2" />
+                    <img src="images/slider1_image_3.jpg" class="header_image" color="#3f0731" alt="" link="#link3" />
+                       <img src="images/slider1_image_4.jpg" class="header_image" color="#3f0731" alt="" link="#link3" />
+				</div>
+            <div  class="middle">
+                <div class="header_controls">            
+                <a href="#" id="header_controls_left" style=";">Previous</a>
+                <a href="#" id="header_controls_right"  style=";">Next</a>                </div>
+                <div id="overlay_bg"></div>
+
+              </div>
+        </div>
+    </div>
+   
+<!--/ slider -->    
 </div>
 
-<!-- header section -->
-<header>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<img src="images/tm-easy-profile.jpg" class="img-responsive img-circle tm-border" alt="templatemo easy profile">
-				<hr>
-				<h1 class="tm-title bold shadow">Hi, 我是</h1>
-			</div>
-		</div>
-	</div>
-</header>
 
-<!-- about and skills section -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-6 col-sm-12">
-			<div class="about">
-				<h3 class="accent">关于我</h3>
-			  <p>&nbsp; </p>
-				<p>我是，</p>
-				<p>QQ：121475110</p>
-				<p>http://ws234.com/</p>
-			</div>
-		</div>
-		<div class="col-md-6 col-sm-12">
-			<div class="skills">
-				<h2 class="white">Skills</h2>
-				<strong>PHP MySQL</strong>
-				<span class="pull-right">70%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-					</div>
-				<strong>UI/UX Design</strong>
-				<span class="pull-right">85%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-					</div>
-				<strong>Bootstrap</strong>
-				<span class="pull-right">95%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-					</div>
-			</div>
-		</div>
-	</div>
-</section>
-<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站</a></div>
-<!-- education and languages -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-8 col-sm-12">
-			<div class="education">
-				<h2 class="white">Education</h2>
-					<div class="education-content">
-						<h4 class="education-title accent">New Web Design</h4>
-							<div class="education-school">
-								<h5>School of Media</h5><span></span>
-								<h5>2030 January - 2034 December</h5>
-							</div>
-						<p class="education-description">In lacinia leo sed quam feugiat, ac efficitur dui tristique. Ut venenatis, odio quis cursus egestas, nulla sem volutpat diam, ac dapibus nisl ipsum ut ipsum. Nunc tincidunt libero non magna placerat elementum.</p>
-					</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-12">
-			<div class="languages">
-				<h2>Languages</h2>
-					<ul>
-						<li>Myanmar / Thai</li>
-						<li>English / Spanish</li>
-						<li>Chinese / Japanese</li>
-						<li>Arabic / Hebrew</li>
-					</ul>
-			</div>
-		</div>
-	</div>
-</section>
+<div class="welcome_bar">   
+<!-- bar -->	
+<div class="container_12 bar">
+        <div class="bar-icon"><img src="images/icon_rss.png" width="80" height="80" alt="" /></div>
+        <div class="bar-title">
+            <h1> 欢迎来到<span>spiregoon</span>的个人主页，请各位看官多包涵指教！</h1>
+            <div class="sub-text"> &amp;Code你是我的世界，让这个宇宙开始毁灭。不多说，搬砖打豆豆：</div>
+        </div>
+        <div class="bar-right">
+        	<a href="#portfoliolist" class="button_link large_button"><span>浏览作品</span></a></div>
+        <div class="clear"></div>
+    </div>
+<!--/ bar --> 
+<!-- ***about me**** -->
+<div class="team-members s2" id="about">
+                    <div class="wrap"> 
+                        <div class="tm-head">
+                            <h3>关于我</h3>
+                            <p>一个小小的前端工程师的自白</p>
+                        </div>
+                        <div class="tm-head-grids">
+                         
+                            <div class="tm-body">
+                                <div class="">
+                                    <h1>我是谁&&为什么要做前端</h1>
+                                    <p> 
+hi，我是前端的一名工程师spiregoon。个人非常喜爱前端这个行业，所得所见，尤其非常有领潮范，对于我这个极喜欢设计有热爱专研高新技术的人来说再好不过了。有些小小遗憾的是：在自己刚开始工作的时候没有能进入这个行业，不过却也给我能沉淀事业的能力。现在能做一名前端者，感觉是我做出最正确的选择。—— 因为选择一个自己不喜欢的职业，为之忍受数十年直到退休，实在是一件很悲催的事情。
+</p>
+                                </div>
+                                   <div class="">
+                                    <h1>前端我可以做什么</h1>
+                                    <p> 
+从业务的的层面来讲，网站前端开发、APP前端开发、微信html5开发这些都是需要会的而且手到擒来的。从工作流程来看，可以做后端与界面设计间的粘合剂，保证这个机器舒畅运行。还有就是不断持续的学习能力，可以不断的往前伸也可以往后伸。</p>
+                                </div>
+                                   <div class="">
+                                    <h1>前端大牛我的目标</h1>
+                                    <p> 
+做一名前端技术的集大成者，能够指点江山，变幻出完美的用户体验配套，这将是我今生的追求!当然更重要的是能和那些志同道合的前端大牛一起工作共享学习，共同在前端的海洋里面遨游！</p>
+                                </div>
+                            </div>
+                            <div class="tm-head-grid" style="float:right;">
+                                <img src="images/team-member1.jpg" alt="" />
+                                <h4>SPIREGOON</h4>
+                                <h5>前端工程师</h5>
+                                <ul class="top-social-icons">
+                                    <li><a class="twitter simptip-position-bottom simptip-movable" data-tooltip="twitter" href="#"> </a></li>
+                                    <li><a class="facebook simptip-position-bottom simptip-movable" data-tooltip="Facebook" href="#"> </a></li>
+                                    <li><a class="pin simptip-position-bottom simptip-movable" data-tooltip="pintrest" href="#"> </a></li>
+                                     <li><a class="gub simptip-position-bottom simptip-movable" data-tooltip="pintrest" href="#"> </a></li>
+                                    <div class="clear"> </div>
+                                </ul>
+                            </div>
+                            <div class="clear"> </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- ******   about me ******* -->
 
-<!-- contact and experience -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-4 col-sm-12">
-			<div class="contact">
-				<h2>Contact</h2>
-					<p><i class="fa fa-map-marker"></i> 123 Rama IX Road, Bangkok</p>
-					<p><i class="fa fa-phone"></i> 010-020-0890</p>
-					<p><i class="fa fa-envelope"></i> easy@company.com</p>
-					<p><i class="fa fa-globe"></i> www.company.com</p>
-			</div>
-		</div>
-		<div class="col-md-8 col-sm-12">
-			<div class="experience">
-				<h2 class="white">Experiences</h2>
-					<div class="experience-content">
-						<h4 class="experience-title accent">Website Development</h4>
-						<h5>New Media Company</h5><span></span>
-						<h5>2035 January - 2036 April</h5>
-						<p class="education-description">Cras porta tincidunt sem, in sollicitudin lorem efficitur ut. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-					</div>
-			</div>
-		</div>
-	</div>
-</section>
+</div>
+<!-- *********
+     ******** -->
 
-<!-- footer section -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<p>Copyright &copy; 2084 Your Easy Profile. More Templates <a href="http://ws234.com/" target="_blank" title="个人博客">个人博客</a> - Collect from <a href="http://ws234.com/" title="王商个人博客" target="_blank">王商个人博客</a></p>
-				<ul class="social-icons">
-					<li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-google-plus"></a></li>
-					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="#" class="fa fa-dribbble"></a></li>
-					<li><a href="#" class="fa fa-github"></a></li>
-					<li><a href="#" class="fa fa-behance"></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</footer>
+     <!---- fun ---->
+                <div class="fun">
+                    <div class="wrap"> 
+                        <div class="fun-head">
+                            <h3>工作三部曲</h3>                         
+                        </div>
+                        <div class="fun-head-grids">
+                            <div class="fun-head-grid">
+                                <img src="images/fact1.png" alt="" />
+                                <h4>638</h4>
+                                <h5>写代码喝过的咖啡</h5>                      
+                            </div>
+                            <div class="fun-head-grid">
+                                <img src="images/fact2.png" alt="" />
+                                <h4>746</h4>
+                                <h5>解决问题后的开心时刻</h5>                  
+                            </div>
+                            <div class="fun-head-grid">
+                                <img src="images/fact3.png" alt="" />
+                                <h4>887</h4>
+                                <h5>敲代码中放过的音乐</h5>                              
+                            </div>
+                            <div class="fun-head-grid">
+                                <img src="images/fact4.png" alt="" />
+                                <h4>1047</h4>
+                                <h5>完成过的文件</h5>                             
+                            </div>
+                            <div class="clear"> </div>
+                        </div>
+                    </div>
+                </div>
+                <!----//End-fun----> 
+     <div class="experience" id="skills">
+                    <div class="wrap"> 
+                        <div class="ex-head">
+                            <h3>前端技能skils</h3>
+                            <p>想要成为一个好的前端修炼技能是必需的功课</p>
+                        </div>
+                <div class="digo" >
+                        <div class="prog">
+                                <div class="text">
+                                    <span>Web design</span>
+                                </div>
+                                <div class="text_p">
+                                    <span>90%</span>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="progress-bar-container" data-percent="90%">
+                                    <div class="progress-bar" style="width: 90%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prog1">
+                                <div class="text">
+                                    <span>HTML/css</span>
+                                </div>
+                                <div class="text_p">
+                                    <span>90%</span>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="progress-bar-container" data-percent="90%">
+                                    <div class="progress-bar1" style="width: 90%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prog2">
+                                <div class="text">
+                                    <span>javascript</span>
+                                </div>
+                                <div class="text_p">
+                                    <span>80%</span>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="progress-bar-container" data-percent="90%">
+                                    <div class="progress-bar2" style="width: 80%;">
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
 
-<!-- javascript js -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/custom.js"></script>
+                    <div class="digo" >
+                        <div class="prog">
+                                <div class="text">
+                                    <span>jQuery</span>
+                                </div>
+                                <div class="text_p">
+                                    <span>75%</span>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="progress-bar-container" data-percent="70%">
+                                    <div class="progress-bar" style="width: 75%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prog1">
+                                <div class="text">
+                                    <span>reactjs/anglurjs</span>
+                                </div>
+                                <div class="text_p">
+                                    <span>60%</span>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="progress-bar-container" data-percent="90%">
+                                    <div class="progress-bar1" style="width: 60%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prog2">
+                                <div class="text">
+                                    <span>nodejs</span>
+                                </div>
+                                <div class="text_p">
+                                    <span>60%</span>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="progress-bar-container" data-percent="90%">
+                                    <div class="progress-bar2" style="width: 60%;">
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+<!-- *************** -->
+
+          <!--assexprience start-->
+  <section class="exprience" id="exprience">
+    <div class="container">
+      <div class="heading">
+        <h2>Work Experience</h2>
+        <p>一个前端工程师的修炼路程</p>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">基础 阶段<br>
+            Present</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>第一阶段</h4>
+            <h5>美工切图仔</h5>
+            <p>  刚学前端时满腔热情，一门心思只往前端事业发展。看到什么都是新鲜十足，什么都想学。不断的买书看各种视屏学习，最疯狂的时候看代码都看得分不清南北了。所谓关说不练也是没用的，疯狂的找项目实践使得我的编码能力、项目经验duang duang duang上去了。同时也搞了很多奇形怪状的业余项目，基本上无论遇到什么跟JS相关的“新”技术（新是对于我自己来说的），我都想去尝一尝。在这个阶段，仅认为前端工程师，主要学好JS/CSS/HTML就够了。</p>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">进阶阶段<br>
+            Present</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>第二阶段</h4>
+            <h5>代码模仿师</h5>
+            <p>在这个阶段，通过大量的编码提升JS能力，同时尝试各种JS框架和库，寻找适合自己的框架，甚至自己也写了一个JS库和构建工具。“就是要重复的造轮子”，这是这个阶段的真实写照，只有知道了怎么造轮子才会将来不用重复造轮子。你不造轮子，怎么知道别的轮子好不好用？怎么知道造一个轮子有多难？怎么知道如何改进轮子？反正我当时就晕晕乎乎的看完了jQuery的源码</p>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">服务端开发 <br>
+            Present</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>第三阶段</h4>
+            <h5>代码魔方师</h5>
+            <p>在JS/CSS/HTML里探索了一番后，发现还有什么Server、网络协议、网络、前端、浏览器各种知识还要学，还有移动端Android、iO等等都要搞定。在前端的各种ajax、瀑布流来处理客户端与服务端关系，同时深入的学习了nodejs，发现这个东西在处理这些方面有着巨大的潜力。生命不休，学习不止！</p>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">流行框架 <br>
+            Present</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>第四阶段</h4>
+            <h5>代码魔方师</h5>
+            <p>
+                到了一定的阶段都会有一种无处着力的感觉，那么就来学习下当下流行的不同框架。研究那些框架更能适合自己，更能够提高编码的效率。不同种框架适合不同项目的开发，最后处理各种业务模块和业务逻辑的实现方法。要想到一定的高度，就要大而全，不一定要都会，但得都要懂。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row workDetails">
+        <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+          <div class="workYear">全栈式开发<br>
+            Present</div>
+        </div>
+        <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+          <div class="arrowpart"></div>
+          <div class="exCon">
+            <h4>第五阶段</h4>
+            <h5>前端攻城师</h5>
+            <p>其实到了这个阶段，在提升JS能力的同时，开始要往多方面发展。前端工程师远远不仅是JS而已。制作一个性能高、交互好、视觉美的页面，需要从前端框架选型、架构设计、构建工具，到后端通信机制、设计与交互、网络和浏览器优化等各方面的知识。一专多长才是前端工程师的终极目标。有个人说得对：一专是指你不可替代，多长标示你可以替代别人。这样你在团队在公司的地位才更加牢固，公司也会给你提供更多的资源。在中方面的探索在不断的努力中，，，</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--addexprience end-->
+
+
+<!-- **my prtfolio*** -->
+
+
+     <div class="portfoliO s1" id="work"><!-- start portfoli1 -->
+         <div class="wrap"> 
+         <h3>作品</h3>
+         <p>有所付出就有所收获</p>
+         <div class="container"><!-- start container -->         
+           <!-- start h_menu -->
+                <!-- <div class="h_menu">
+                <ul class="flexy-menu thick orange">
+                                <li class="active"> <span class="filter active" data-filter="app card icon web">查看全部</span></li>
+                                <li><span class="filter" data-filter="app  icon">商城类</span></li>
+                                <li><span class="filter" data-filter="card ">移动类</span></li>                           
+                                <li><span class="filter" data-filter="icon app card ">社交类</span></li>
+                                <li><span class="filter" data-filter="web card icon">官网类</span></li>
+                </ul>
+                </div> -->  <!-- end h_menu -->
+                <script type="text/javascript" src="js/flexy-menu.js"></script>
+                <link href="css/header_style1.css" rel="stylesheet" type="text/css" media="all" />
+                <script type="text/javascript">$(document).ready(function(){$(".flexy-menu").flexymenu({speed: 400,type: "horizontal",align: "right"});});</script>
+
+            <!-- end smart_nav * -->
+                        <ul id="filters" class="clearfix">
+                            <li>
+                                <span class="filter active" data-filter="app card icon web">查看全部</span>
+                            </li>
+                            <li>
+                                <span class="filter" data-filter="app  icon">商城类</span>
+                            </li>
+                            <li>
+                                <span class="filter" data-filter="card ">移动类</span>
+                            </li>
+                            <li>
+                                <span class="filter" data-filter="icon app card ">社交类</span>
+                            </li>
+                            <li>
+                                <span class="filter" data-filter="web card icon">官网类</span>
+                            </li>
+                        </ul>
+                        
+                        <div id="portfoliolist">
+                            <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                                <div class="portfolio-wrapper">
+                                    <a href="images/img00.jpg #small-dialog1" class="flipLightBox popup-with-zoom-anim"><img src="images/port0.jpg" alt="Image 2" style="top: 0px;"> </a>
+                                    
+                                </div>
+                            </div>                      
+                            <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                                <div class="portfolio-wrapper">
+                                    <a href="images/img01.jpg #small-dialog1" class="flipLightBox popup-with-zoom-anim"><img src="images/port1.jpg" alt="Image 2" style="top: 0px;"> </a>                               
+                                </div>
+                            </div>
+                            <div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+                                <div class="portfolio-wrapper">
+                                    <a href="images/img02.jpg #small-dialog1" class="flipLightBox popup-with-zoom-anim"><img src="images/port2.jpg" alt="Image 2" style="top: 0px;"> </a>                           
+                                </div>
+                            </div>
+                            <div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+                                <div class="portfolio-wrapper">
+                                    <a href="images/img03.jpg #small-dialog1" class="flipLightBox popup-with-zoom-anim"><img src="images/port3.jpg" alt="Image 2" style="top: 0px;"> </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+                                <div class="portfolio-wrapper">
+                                    <a href="images/img04.jpg #small-dialog1" class="flipLightBox popup-with-zoom-anim"><img src="images/port4.jpg" alt="Image 2" style="top: 0px;"> </a>
+                                    
+                                </div>
+                            </div>
+                            <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                                <div class="portfolio-wrapper">
+                                    <a href="images/img05.jpg #small-dialog1" class="flipLightBox popup-with-zoom-anim"><img src="images/port5.jpg" alt="Image 5" style="top: 0px;"> </a>
+                                
+                                </div>
+                             
+                            </div>
+                                  <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                                <div class="portfolio-wrapper">
+                                    <a href="images/img06.jpg #small-dialog1" class="flipLightBox popup-with-zoom-anim"><img src="images/port6.jpg" alt="Image 5" style="top: 0px;"> </a>
+                                
+                                </div>
+                            </div>
+                               <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                                <div class="portfolio-wrapper">
+                                    <a href="images/img07.jpg #small-dialog1" class="flipLightBox popup-with-zoom-anim"><img src="images/port7.jpg" alt="Image 5" style="top: 0px;"> </a>
+                                
+                                </div>
+                            </div>
+                               <div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+                                <div class="portfolio-wrapper">
+                                    <a href="images/img08.jpg #small-dialog1" class="flipLightBox popup-with-zoom-anim"><img src="images/port8.jpg" alt="Image 5" style="top: 0px;"> </a>
+                                
+                                </div>
+                            </div>
+                                                                
+                        </div>              
+                        </div>  
+                        <div class="img">
+                            <a href="#"><img src="images/zoom.png" alt=""></a>  
+                        </div>                      
+            </div><!-- end container -->
+        </div>
+        <!-- ********************** -->
+
+
+<!-- middle body --> 
+<div class="middler homepage">
+	<div class="container_12">
+         <div class="headline">
+            <h3>前端天气表</h3>
+                    <p>随时带把伞，遇坑填坑 </p>
+        </div>
+    
+    <div class="col col_1_3">
+    	<div class="inner">
+   	  	<h2>各种浏览器兼容问题  </h2>
+        <p> 由于市场上浏览器种类众多，而不同浏览器其内核亦不尽相同，<img src="images/temp_img_1.jpg" alt="" width="93" height="76" class="alignright" /> 这也是导致浏览器兼容问题出现的主要原因，其中最让人头大的就是ie6、7浏览器，不想考虑但又不得不考虑。 </p>
+        <a href="#" class="link-more">more details</a>        </div>
+	</div>
+    
+<div class="col col_1_3">
+    	<div class="inner">
+   	  	<h2>响应式布局问题 </h2>
+        <p>简而言之，就是一个网站能够兼容多个终端<img src="images/temp_img_2.jpg" alt="" width="93" height="76" class="alignright" /> ——而不是为每个终端做一个特定的版本。具体的实践方式由多方面组成，包括弹性网格和布局、图片、CSS media query的使用等。 </p>
+        <a href="#" class="link-more">more details</a>      </div>
+    </div>
+<div class="col col_1_3">
+    	<div class="inner">
+   	  	<h2>版本代码维护问题</h2>
+        <p> 维护时要在一堆没有格式化的代码里进行修改添加是多么痛苦的一件事情。 <img src="images/temp_img_3.png" width="80" height="76" class="alignright" alt="" />通常一个项目迭代开发的概率是相当高的，那么时不时要进行代码重构，维护修改代码等等或者自己以前写的代码</p>
+		<a href="#" class="link-more">more details</a>      </div>
+    </div>
+    <div class="divider_space"></div>
+    
+    <div class="box box_white">
+    
+        <div class="col col_2_3">
+            <div class="inner">
+                <div class="quoteBox-big">
+                    <div class="quote-title"><strong>那些大拿总是这样告诫:</strong></div>
+                    <div class="quote-text">一个好的前端工程师是怎样炼成的，遇坑填坑，随时响应，异步同步无阻塞。回调也能执行，生命周期无极限！！成精了！</div>
+                    <div class="quote-author"><span class="violet">马克吐温,</span>  代码工业的先驱者</div>    
+                </div>
+            </div>
+        </div>
+        
+<div class="col col_1_3">
+        	<div class="inner">
+            	
+                <!-- newsletter -->
+                <div class="newsletterBox">
+                	<div class="bg">
+                        <div class="ribbon"></div>
+                        <h2>品质</h2>
+                        <div class="before-text">提高所写代码的质量，最好的方法就是多写多实践，多看好项目的源码，积累经验。</div>
+                        <form action="" method="post">
+                            <input type="text" value="" name="" class="inputField" />
+                            <input type="submit" value="" name="" class="btn-submit" />
+                            <div class="clear"></div>
+                        </form>
+                	</div>
+                </div>
+                <!--/ newsletter -->
+            </div>
+      </div>
+        
+    <div class="clear"></div>
+    </div>
+    
+    <div class="divider_space"></div>
+    
+    <div class="col col_1_2">
+        <div class="inner">
+        	
+            <!-- tab box -->
+            <div class="tabBox">
+				<div class="tabTitle"><h3>方案:</h3></div>
+                <ul class="tabs">
+                      <li><a href="#tabcontent1"><img src="images/action_number1.png" width="51" height="42" alt="" /></a></li>
+                      <li><a href="#tabcontent2"><img src="images/action_number2.png" width="51" height="42" alt="" /></a></li>
+                      <li><a href="#tabcontent3"><img src="images/action_number3.png" width="51" height="42" alt="" /></a></li>
+                </ul>
+
+                <div class="tabcontent">
+                	<div class="inner">
+                	<img src="images/kmp_img_2.jpg" alt="" width="230" height="143" class="alignleft" />
+                	<h3>代码思维</h3>
+                    <p>前端开发是一种规则，这就要求习惯并且熟练的掌握工程化布局，构建优质代码结构搭建安全代码环境。弄清楚解决方案奏效的原因。更全面地理解工作的系统，将意味着前进道路上更少的猜测和检查工作。</p>
+                    
+                    <div class="clear"></div>
+                    </div>
+              	</div>
+                <div class="tabcontent">
+                	<div class="inner">
+                	<img src="images/kmp_img_3.jpg" alt="" width="230" height="143" class="alignleft" />
+                	<h3>勇于实践</h3>
+                    <p>前端开发是一个发展非常快的技术，需要从业人员积极的关注技术的变革，勇于实践新的技术，并且前端开发中还有许多难题有待解决，这是一个非常具有挑战的职业。<a href="#tabcontent1"></a></p>
+                    <div class="clear"></div>
+                    </div>
+				</div>
+                <div class="tabcontent">
+                	<div class="inner">
+                	<!-- <img src="images/temp/temp_img_3.jpg" alt="" width="230" height="143" class="alignright" /> -->
+                	<h3>专注不仅仅是有的知识点</h3>
+                    <p>前端开发即使是一个发开岗位，也不能只专注于开发，还需要有设计方面的基本能力和美感，因为你也是直面用户的一员，也是与设计人员联系最紧密的人，于用户沟通时候，不能使用程序化的语言，需要与他们类似的思维和语言。 </p>
+                    
+                	<div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!--/ tab box -->
+        </div>
+    </div>
+    
+<div class="col col_1_2">
+    	<div class="inner">
+    		
+            <!-- tab box -->
+            <div class="tabBox">
+				<div class="tabTitle"><h3>行动：</h3></div>
+                <ul class="tabs">
+                      <li><a href="#tabcontent1"><img src="images/action_number1.png" width="51" height="42" alt="" /></a></li>
+                      <li><a href="#tabcontent2"><img src="images/action_number2.png" width="51" height="42" alt="" /></a></li>
+                      <li><a href="#tabcontent3"><img src="images/action_number3.png" width="51" height="42" alt="" /></a></li>
+                </ul>
+
+                <div class="tabcontent">
+                	<div class="inner">
+                	<img src="images/kmp_img_4.jpg" alt="" width="230" height="143" class="alignleft" />
+                	<h3>好的习惯</h3>
+                    <p>一个好的编程习惯，将会使我受益非见，因此平时工作中要注意编码里面更多习惯的事情，而不仅仅是能够运行就完事。规范化-英文书写化-语义化-可维护，做到见码如见人。</p>
+                    
+                    <div class="clear"></div>
+                    </div>
+              	</div>
+                <div class="tabcontent">
+                	<div class="inner">
+               	  	<h3>深入的学习</h3>
+                    <p>当代码熟练之后就要知道代码优化的内容，明白什么代码才是好的代码，为什么这么写是好的代码。这样的求知过程才能让自己进步更快，而不仅仅是为了实现功能。 </p>
+                    <p>在一步就是在这个基础上弄明白要学什么，然后怎么去学，那么成功就在眼前了。 </p>
+                    <div class="clear"></div>
+                    </div>
+				</div>
+                <div class="tabcontent">
+                	<div class="inner">
+                	<img src="images/kmp_img_5.jpg" alt="" width="230" height="143" class="alignleft" />
+                	<h3>必不可少的交流</h3>
+                    <p>只有自己将学的知识掌握牢固了，才有能力将知识分享出去，这也是帮助自己提升的过程。 </p>
+                    
+                	<div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <!--/ tab box -->
+      </div>
+	</div>
+    
+    <div class="clear"></div>
+  </div>	
+</div>
+<!--/ middle body -->   
+    
+<div class="footer" id="gank">
+<div class="footer_bg">
+	<div class="container_12">
+    
+    	<div class="col_1_4 col">
+	        <div class="inner">
+            	<h3>我的空间</h3>
+            	<ul>
+                	<li><a href="#">腾讯企鹅</a></li>
+                    <li><a href="#">微信</a></li>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">个人邮箱 </a></li>
+                    <li><a href="#">联系地址</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="col_1_4 col">
+          <div class="inner">
+            	<h3>我的博客</h3>
+            	<ul>
+                	<li><a href="#">新浪微博</a></li>
+                    <li><a href="#">腾讯微博</a></li>
+                    <li><a href="#">C博客</a></li>
+                    <li><a href="#">百度云</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="col_1_4 col">
+          <div class="inner">
+            	<h3>F我的成就</h3>
+            	<ul>
+                	<li><a href="#">苹果官网</a></li>
+                    <li><a href="#">响应式金融平台</a></li>
+                    <li><a href="#">新浪微博 </a></li>
+                    <li><a href="#">网易阅读</a></li>
+                    <li><a href="#">《朵朵电影》</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="col_1_4 col">
+          <div class="inner">
+            	<h3>我的github</h3>
+            	<ul>
+                	<li><a href="#">spiregoon</a></li>
+                    <li><a href="#">noneks</a></li>
+                    <li><a href="#">Greatfeedback.</a></li>
+                    <li><a href="#">bovbykey</a></li>
+                    <li><a href="#">Besttutorial</a></li>
+                </ul>
+            </div>
+        </div>
+        
+      <div class="divider_space"></div>
+    	
+        <div class="col_2_3 col">
+	        <div class="inner">
+            	<a href="#" class="link-twitter" title="Twitter">Twitter</a>
+                <a href="#" class="link-fb" title="Facebook">Facebook</a>
+                <a href="#" class="link-flickr" title="Flickr">Flickr</a>
+                <a href="#" class="link-da" title="deviantART">deviantART</a>
+                <a href="#" class="link-rss" title="RSS Feed">RSS Feed</a>            </div>
+        </div>
+        
+        <div class="col_1_3 col">
+	        <div class="inner">
+            	<p class="copyright">&copy; 2016 <a href="#" target="_blank">www.spire.com</a>.  <a href="#" title="我的网页" target="_blank">后面更精彩</a></p>
+          </div>
+      </div>
+        <div class="clear"></div>
+    </div>
+</div>
+</div>
 
 </body>
 </html>
